@@ -1,14 +1,14 @@
 @charset "UTF-8";
 /*-----------------------------------------------------------------------------------
 
-    Theme Name: Canvas
-    Theme URI: http://themes.semicolonweb.com/html/canvas
-    Description: The Multi-Purpose Template
-    Author: SemiColonWeb
-    Author URI: http://themeforest.net/user/semicolonweb
-    Version: 7.3.1
+    Theme Name: Atlob
+    Theme URI: https://atlobmena.com
+    Description: Restaurant QR Technology Platform
+    Author: Atlob
+    Author URI: https://atlobmena.com
+    Version: 1.0.0
 
-    SASS Stylesheet
+    Custom Stylesheet
 
 -----------------------------------------------------------------------------------*/
 /*!
@@ -13285,8 +13285,8 @@ textarea.form-control-lg {
   }
 }
 :root {
-  --cnvs-themecolor:	#1abc9c;
-  --cnvs-themecolor-rgb:	26, 188, 156;
+  --cnvs-themecolor:	#28a745;
+  --cnvs-themecolor-rgb:	40, 167, 69;
   --bs-link-color:	var(--cnvs-themecolor);
   --bs-link-color-rgb:	var(--cnvs-themecolor-rgb);
   --bs-link-hover-color:	var(--cnvs-heading-color);
@@ -30262,7 +30262,7 @@ label.error {
 }
 
 .quick-contact-widget.form-widget form,
-#template-contactform {
+#atlob-contactform {
   position: relative;
 }
 

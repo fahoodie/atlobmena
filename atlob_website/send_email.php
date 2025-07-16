@@ -1,11 +1,11 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name = htmlspecialchars($_POST['template-contactform-name']);
-    $email = htmlspecialchars($_POST['template-contactform-email']);
-    $phone = htmlspecialchars($_POST['template-contactform-phone']);
-    $message = htmlspecialchars($_POST['template-contactform-message']);
+    $name = htmlspecialchars($_POST['atlob-contactform-name']);
+    $email = htmlspecialchars($_POST['atlob-contactform-email']);
+    $phone = htmlspecialchars($_POST['atlob-contactform-phone']);
+    $message = htmlspecialchars($_POST['atlob-contactform-message']);
 
-    $to = "contact@atlob.sa.com"; // Your email address
+    $to = "contact@atlobmena.com"; // Your email address
     $subject = "New Contact Form Submission";
     $headers = "From: $email\r\n";
     $headers .= "Reply-To: $email\r\n";

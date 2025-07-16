@@ -76,4 +76,32 @@ website:    http://www.themepunch.com
 
 /* TABS */
 
+/* Atlob Custom Button Hover Styles */
+.button:hover,
+.button.button-border:hover,
+.button.button-border.button-rounded:hover {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    color: #fff !important;
+}
+
+.button.button-border:not(.button-fill):hover {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    color: #fff !important;
+}
+
+/* Specific hover for filled buttons */
+.button.bg-secondary:hover {
+    background-color: #28a745 !important;
+}
+
+/* Ensure hover state for all button variations */
+.btn:hover,
+a.btn:hover {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    color: #fff !important;
+}
+
 

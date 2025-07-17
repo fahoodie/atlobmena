@@ -1,9 +1,12 @@
 {
   "version": 2,
   "builds": [
-    { "src": "index.html", "use": "@vercel/static" }
+    { "src": "**", "use": "@vercel/static" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/index.html" }
+    { "src": "/contact.html", "dest": "/contact.html" },
+    { "src": "/demo-saas-2.html", "dest": "/demo-saas-2.html" },
+    { "src": "/(.*\\.(css|js|png|jpg|jpeg|gif|svg|ico|php|html))", "dest": "/$1" },
+    { "src": "/", "dest": "/index.html" }
   ]
 }
